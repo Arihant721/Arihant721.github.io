@@ -5,8 +5,8 @@ collection: portfolio
 ---
 
 
-<img src='/images/p1_probstatement.png' width="300"> 
-<img src='/images/p1_results.gif' width="300"> 
+
+
 
 <div class="project-card">
     <img src='/images/p1_testsample.jpeg' width="300"> 
@@ -16,26 +16,33 @@ collection: portfolio
 			<p>There are passive cooling systems designed to internally cool down small inaccesible and thick-walled enclosures like turbine blades and electronics packaging. The lack of accessibility and small size prohibit direct measurements to be done using conventional measurements.</p> 
     </div>
 </div>
-<div class="project-card"><h2>Methodology</h2>
-<ul>
-	<li>Analysed a simple unconfined jet impinging onto 1 surface of a sufficiently thick plate, by measured the opposite surface that was externally facing and exposed to the ambient.</li>
-	<li>Constructed a frame-like structure, and attaching the plate to 1 side, opposite side being an orifice through which air flows to create the impinging jet (image below).</li>
-	<li>Core problem statement below, simplifies to guessing the heat transfer coefficient on the inner surface that maps to the measured temperature of the external surface and considering through-thickness effects.</li>
-	<li>Ran transient experiments of jet-impingement heating, for 6 cases, of different flow rates and plate thicknesses.</li>
-	<li>Measured the ambient facing surface's temperature using infrared cameras, and tracked true temperatures on both surfaces using thermocouples for calibration</li>
-	<li>Conceptualised a non-linear-least-squares minimization problem on MATLAB, for the difference between the measured temperatures and the predicted temperatures on the external surface.</li>
-	<li> These predicted temperatures were generated from the solution to the problem's forward 3D heat conduction problem, assuming the unknown heat transfer coefficient produced by jet impiingement to be a parameterised function</li>
-	<li>Set-up conjugate heat transfer simulations on ANSYS Fluent for verification and validation.</li>
-</ul>
+<div class="project-card">
+<img src='/images/p1_probstatement.png' width="300"> 
+
+	<h2>Methodology</h2>
+	<div class="project-text">
+		<ul>
+			<li>Analysed a simple unconfined jet impinging onto 1 surface of a sufficiently thick plate, by measured the opposite surface that was externally facing and exposed to the ambient.</li>
+			<li>Constructed a frame-like structure, and attaching the plate to 1 side, opposite side being an orifice through which air flows to create the impinging jet (image below).</li>
+			<li>Core problem statement below, simplifies to guessing the heat transfer coefficient on the inner surface that maps to the measured temperature of the external surface and considering through-thickness effects.</li>
+			<li>Ran transient experiments of jet-impingement heating, for 6 cases, of different flow rates and plate thicknesses.</li>
+			<li>Measured the ambient facing surface's temperature using infrared cameras, and tracked true temperatures on both surfaces using thermocouples for calibration</li>
+			<li>Conceptualised a non-linear-least-squares minimization problem on MATLAB, for the difference between the measured temperatures and the predicted temperatures on the external surface.</li>
+			<li> These predicted temperatures were generated from the solution to the problem's forward 3D heat conduction problem, assuming the unknown heat transfer coefficient produced by jet impiingement to be a parameterised function</li>
+			<li>Set-up conjugate heat transfer simulations on ANSYS Fluent for verification and validation.</li>
+		</ul>
+	</div>
 </div>
 <div class="project-card">
-<h2>Results</h2>
-
-<ul>
-	<li>Obtained reliable estimates within sufficient error bounds (5%) from CFD results.</li>	
-	<li>Spatial mean and stagnation came close to CFD predictions</li>
-	<li>Constraints applied to the optimization problem (bounding some values of the heat transfer coefficient to reliable pre-calculated estimates) helped the optimiztion process converge in a stable manner while preserving accuracy.</li>
-</ul>
+	<img src='/images/p1_results.gif' width="300"> 
+	<h2>Results</h2>
+		<div class="project-text">
+		<ul>
+			<li>Obtained reliable estimates within sufficient error bounds (5%) from CFD results.</li>	
+			<li>Spatial mean and stagnation came close to CFD predictions</li>
+			<li>Constraints applied to the optimization problem (bounding some values of the heat transfer coefficient to reliable pre-calculated estimates) helped the optimiztion process converge in a stable manner while preserving accuracy.</li>
+		</ul>
+	</div>
 </div>
 
 
