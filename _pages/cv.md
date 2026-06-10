@@ -55,10 +55,10 @@ Key experience
   * Identified integration risks during design reviews, ensuring compliance with SEMI process standards.
 
 * TimeTooth Technologies Pvt. Ltd, Engineering Analyst, July 2023 – July 2024
- * Verified structural integrity of an indigenous aircraft seat design under 9G loads, using FEA on Altair Hyperworks.
- * Performed crash simulations using non-linear FEA to predict critical failure points and improve structural robustness during 16G impulses in 2 configurations, in accordance with official aerospace standards.
- * Proposed 15% material reduction at strategic locations according to topology optimisation studies on Altair Hyperworks.
- * Collaborated with regulatory bodies to support product testing, certification, and airworthiness approval processes.
+  * Verified structural integrity of an indigenous aircraft seat design under 9G loads, using FEA on Altair Hyperworks.
+  * Performed crash simulations using non-linear FEA to predict critical failure points and improve structural robustness during 16G impulses in 2 configurations, in accordance with official aerospace standards.
+  * Proposed 15% material reduction at strategic locations according to topology optimisation studies on Altair Hyperworks.
+  * Collaborated with regulatory bodies to support product testing, certification, and airworthiness approval processes.
 
 * Birla Institute of Technology and Science Pilani Hyderabad Campus, Undergraduate Research Assistant, Jan 2023 - May 2023
   * Constructed a two-stage air conditioning test bench to evaluate a silica-gel desiccant dehumidification system, of 30% more energy savings than conventional processes.

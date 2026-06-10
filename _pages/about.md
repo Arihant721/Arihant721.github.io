@@ -7,4 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a person who is 
+I 
