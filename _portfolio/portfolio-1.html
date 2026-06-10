@@ -4,22 +4,18 @@ excerpt: "<br/><img src='/images/p1_testsample.jpeg' width='200'>"
 collection: portfolio
 ---
 
-<img src='/images/p1_testsample.jpeg' width="300"> 
+
 <img src='/images/p1_probstatement.png' width="300"> 
 <img src='/images/p1_results.gif' width="300"> 
 
+<div class="project-card">
+    <img src='/images/p1_testsample.jpeg' width="300"> 
 
-<table>
-  <tr>
-    <td>
-      <img src="project-image.jpg" alt="Project Image" width="300">
-    </td>
-    <td>
-<h2>Objective:</h2>
-<p>There are passive cooling systems designed to internally cool down small inaccesible and thick-walled enclosures like turbine blades and electronics packaging. The lack of accessibility and small size prohibit direct measurements to be done using conventional measurements.</p> 
-    </td>
-  </tr>
-</table>
+    <div class="project-text">
+			<h2>Objective:</h2>
+			<p>There are passive cooling systems designed to internally cool down small inaccesible and thick-walled enclosures like turbine blades and electronics packaging. The lack of accessibility and small size prohibit direct measurements to be done using conventional measurements.</p> 
+    </div>
+</div>
 
 <h2>Methodology</h2>
 <ul>
@@ -40,3 +36,26 @@ collection: portfolio
 	<li>Constraints applied to the optimization problem (bounding some values of the heat transfer coefficient to reliable pre-calculated estimates) helped the optimiztion process converge in a stable manner while preserving accuracy.</li>
 </ul>
 
+<style>
+.project-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.project-card img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-text {
+    flex: 1;
+}	
+
+	
+</style>
