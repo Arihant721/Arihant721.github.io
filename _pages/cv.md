@@ -17,25 +17,16 @@ Education
 Skills
 ======
 * Experimental skills:
-  * Flow sensors and instrumentation (thermocouples, pressure sensors)
+  * Flow sensors and instrumentation (thermocouples, pressure sensors, infrared imaging)
   * Data acquisition systems (National Instruments)
   * Design of Experiments
-  * Infrared thermal imaging
   * Prototype development via 3D printing
 * CAD Softwares: 
-  * Solidworks
-  * Creo, 
+  * Solidworks, Creo
 * Multiphysics softwares:
-  * ANSYS Fluent and ANSYS mechanical
-  * OpenFOAM
-  * Altair Hyperworks
-  * COMSOL
+  * ANSYS Fluent and ANSYS mechanical, OpenFOAM, Altair Hyperworks, COMSOL
 * Programming Languages: 
-  * MATLAB/Simulink
-  * Python
-  * C/C++
-  * LabVIEW
-  * Arduino IDE
+  * MATLAB/Simulink, Python, C/C++, LabVIEW, Arduino IDE
 
 Key experience
 ======
@@ -82,7 +73,7 @@ Student teams
   * Designed the basic wing structure based on the above insights and validated its trajectory using 3D CFD simulations on ANSYS Fluent, for the CANSAT Competition hosted by the American Astronomical Society.
   * Shortlisted for 2nd and final stage of the competition (held online due to COVID restrictions).
 
-Team Vulcan (SAE BAJA team for Birla Institute of Technology and Science Pilani Hyderabad Campus), Design engineer, Aug 2020 - May 2022
+* Team Vulcan (SAE BAJA team for Birla Institute of Technology and Science Pilani Hyderabad Campus), Design engineer, Aug 2020 - May 2022
   * Part of a team of 20 students, designing an All-Terrain vehicle for the SAE-BAJA competition held every year.
   * Conducted 5+ crash and NVH simulations on the ATV’s roll-cage using FEA on ANSYS mechanical and identified weak spots for reinforcement.
   * Designed and simulated a 4-Wheel-Drive gearbox with 60-40 torque split to improve the ATV’s handling for future races.
